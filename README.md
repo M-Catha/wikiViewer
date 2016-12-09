@@ -6,6 +6,6 @@ Also provides a random wikipedia page.
 
 Built using HTML, CSS, Javascript, and jQuery.
 
-Working demo: 
+Live demo here: 
 
 [Code Pen](http://codepen.io/MCatha/pen/MbXxwb)
