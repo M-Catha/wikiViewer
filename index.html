@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+	<html>
+	<title>Wiki Viewer</title>
+	<head>
+		<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+		<script src="http://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.6/components/button.min.css">
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+	</head>
+	<body>
+		<div class="container">
+			<div class="header">
+				<span id="title"><i class="fa fa-wikipedia-w"></i>ikipedia Viewer</span>
+			</div>
+			<div id="errorMessage">
+				<span class="errorText">No such article(s) exist! Try another search!</span>
+			</div>
+			<div id="searchIcon">
+				<i class="fa fa-search fa-5x"></i>
+				<div class="searchText">Click To Search</div>
+			</div>
+			<div id="searchInput">
+				<input id="search" type="text">
+				<button id="searchBtn" class="ui inverted white button">Find It!</button>
+				<button id="resetBtn" class="ui inverted white button">Reset It!</button>
+			</div>
+			<div id="randomArticle">
+				<a target="_blank" href="https://en.wikipedia.org/wiki/Special:Random">
+					<i class="fa fa-random fa-5x"></i>
+					<div class="randomText">Click For Random Article</div>
+				</a>
+			</div>
+			<div id="wikiArticles">
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript" src="js/index.js"></script>
+</html>
