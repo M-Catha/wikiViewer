@@ -8,4 +8,4 @@ Built using HTML, CSS, Javascript, and jQuery.
 
 Live demo here: 
 
-[Code Pen](http://codepen.io/MCatha/pen/MbXxwb)
+[Code Pen](http://codepen.io/MCatha/full/MbXxwb/)
