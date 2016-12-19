@@ -5,7 +5,7 @@ var searchAnimation = function() {
 		// Fade in input field and button
 		$("#searchInput").fadeIn("fast", function() {
 			// Widen input field and show button
-			$("#search").animate({"width":"20%"}, 200);
+			$("#search").animate({"width":"70%"}, 200);
 		});
 	});
 };
