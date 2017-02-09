@@ -12,4 +12,4 @@ Built using HTML, CSS, Javascript, and jQuery.
 
 Live demo here: 
 
-[Code Pen](http://codepen.io/MCatha/full/MbXxwb/)
+[Github Pages](https://m-catha.github.io/wikiViewer/)
