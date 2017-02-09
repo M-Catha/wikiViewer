@@ -67,9 +67,10 @@ a {
 }
 
 #search {
-  display:block;
-  margin:0 auto;
+	display:block;
+	margin:0 auto;
 	width:0px;
+	max-width:600px;
 	padding:5px 0 5px 0;
 	border:2px #FFFFFF solid;
 	border-radius:15px;
